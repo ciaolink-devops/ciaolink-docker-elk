@@ -5,17 +5,20 @@
 - pipeline.id: logspout-pipeline
   path.config: "/usr/share/logstash/pipeline/logspout.conf"
 
-- pipeline.id: neomed-products-pipeline
-  path.config: "/usr/share/logstash/pipeline/neomed-products.conf"
+# - pipeline.id: neomed-products-pipeline
+#   path.config: "/usr/share/logstash/pipeline/neomed-products.conf"
 
-- pipeline.id: neomed-categories-pipeline
-  path.config: "/usr/share/logstash/pipeline/neomed-categories.conf"
+# - pipeline.id: neomed-categories-pipeline
+#   path.config: "/usr/share/logstash/pipeline/neomed-categories.conf"
 
-- pipeline.id: neomed-distributors-pipeline
-  path.config: "/usr/share/logstash/pipeline/neomed-distributors.conf"
+# - pipeline.id: neomed-distributors-pipeline
+#   path.config: "/usr/share/logstash/pipeline/neomed-distributors.conf"
 
-- pipeline.id: neomed-providers-pipeline
-  path.config: "/usr/share/logstash/pipeline/neomed-providers.conf"
+# - pipeline.id: neomed-providers-pipeline
+#   path.config: "/usr/share/logstash/pipeline/neomed-providers.conf"
 
-- pipeline.id: neomed-pharmacies-pipeline
-  path.config: "/usr/share/logstash/pipeline/neomed-pharmacies.conf"
+# - pipeline.id: neomed-pharmacies-pipeline
+#   path.config: "/usr/share/logstash/pipeline/neomed-pharmacies.conf"
+
+- pipeline.id: neomed-pipeline
+  path.config: "/usr/share/logstash/pipeline/neomed.conf"
