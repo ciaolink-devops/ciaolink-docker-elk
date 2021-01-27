@@ -13,4 +13,4 @@ RUN curl -L --output "mysql-connector-java-8.0.22.tar.gz" "https://dev.mysql.com
     && mv "mysql-connector-java-8.0.22/mysql-connector-java-8.0.22.jar" "mysql-connector-java-8.0.22.jar" \
     && rm -r "mysql-connector-java-8.0.22" "mysql-connector-java-8.0.22.tar.gz"
 
-RUN mkdir queries
+RUN mkdir jdbc-last-run
