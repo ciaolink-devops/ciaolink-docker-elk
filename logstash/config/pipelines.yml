@@ -2,8 +2,8 @@
 # For more information on multiple pipelines, see the documentation:
 #   https://www.elastic.co/guide/en/logstash/current/multiple-pipelines.html
 
-- pipeline.id: logspout-pipeline
-  path.config: "/usr/share/logstash/pipeline/logspout.conf"
+# - pipeline.id: logspout-pipeline
+#   path.config: "/usr/share/logstash/pipeline/logspout.conf"
 
 # - pipeline.id: neomed-products-pipeline
 #   path.config: "/usr/share/logstash/pipeline/neomed-products.conf"
@@ -20,5 +20,5 @@
 # - pipeline.id: neomed-pharmacies-pipeline
 #   path.config: "/usr/share/logstash/pipeline/neomed-pharmacies.conf"
 
-- pipeline.id: neomed-pipeline
-  path.config: "/usr/share/logstash/pipeline/neomed.conf"
+# - pipeline.id: neomed-pipeline
+#   path.config: "/usr/share/logstash/pipeline/neomed.conf"
