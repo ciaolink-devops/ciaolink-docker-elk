@@ -36,17 +36,14 @@ services:
         ELK_VERSION: $ELK_VERSION
     container_name: elk_logstash
     volumes:
-      # - ./logstash/config/logstash.yml:/usr/share/logstash/config/logstash.yml:ro
-      # - ./logstash/pipeline:/usr/share/logstash/pipeline:ro
-      # - ./logstash/jdbc-last-run:/usr/share/logstash/jdbc-last-run
       - type: bind
         source: ./logstash/config/logstash.yml
         target: /usr/share/logstash/config/logstash.yml
         read_only: true
-      - type: bind
-        source: ./logstash/pipeline
-        target: /usr/share/logstash/pipeline
-        read_only: true
+      # - type: bind
+      #   source: ./logstash/pipeline
+      #   target: /usr/share/logstash/pipeline
+      #   read_only: true
       # - type: bind
       #   source: ./logstash/jdbc-last-run
       #   target: /usr/share/logstash/jdbc-last-run
